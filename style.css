@@ -45,7 +45,6 @@
     filter: grayscale();
     box-shadow: 0 0 20px #333;
     object-fit: cover;
-    transition : 0.3s;
 }
 
 .card:hover{
