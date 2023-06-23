@@ -36,6 +36,7 @@
     margin-bottom: 20px;
     border-radius: 10px; /*image ke corners to round karne ke liye*/
     overflow: hidden;
+    transition: 0.3s; 
 }
 
 .card img{
@@ -44,6 +45,7 @@
     filter: grayscale();
     box-shadow: 0 0 20px #333;
     object-fit: cover;
+    transition: 0.3s;
 }
 
 .card:hover{
@@ -55,7 +57,7 @@
 }
 
 .card img:hover{
-    transition: 0.3s;
+/*     transition: 0.3s; */
     filter: grayscale(0);
 }
 
